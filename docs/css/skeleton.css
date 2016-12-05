@@ -133,13 +133,31 @@ body {
 
 
 #logo {
-  text-align:center;
-  margin-bottom: 1px;
+  text-align: center;
+  margin-bottom: 0px;
   color: #AAEEFF;
   background-color: #0000FF;
   font-weight: bold;
   font-style: italic;
-  padding-bottom: 40px;
+  }
+
+#slogan {
+  text-align: center;
+  color: #88AAFF;
+  background-color: #0000FF;
+  font-style: italic;
+  padding-bottom: 20px;
+  }
+
+#main_form {
+  text-align: center;
+  border: 1px;
+  background-color: #FFAA44;
+  }
+
+#bottom {
+  background-color: #AAEEFF;
+  font-size: small ;
   }
 
 
@@ -221,8 +239,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #006A00;
+  border-color: #006A00; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -234,8 +252,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #008A00;
+  border-color: #008A00; }
 
 
 /* Forms
@@ -431,3 +449,5 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
