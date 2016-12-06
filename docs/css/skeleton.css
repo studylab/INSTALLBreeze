@@ -160,6 +160,10 @@ body {
   font-size: small ;
   }
 
+#navbar {
+  text-align: center;
+  }
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
