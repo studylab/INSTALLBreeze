@@ -28,59 +28,76 @@
 <div class="container">
 
 <div class="row">
-  <h1 id="logo">
-  InstallBreeze
-  </h1>
+<h1 id="logo">
+InstallBreeze
+</h1>
 </div> <!-- end of div row -->
-
 <div id="slogan">
-  <p>
-  We install software on <u>your</u> cloud.
-  </p>
+<p>
+We install software on <u>your</u> cloud.
+</p>
 </div> <!-- end of div slogan -->
 
 
-<div class="row">
-  <div class="row" id="navbar">
-        Welcome  |
-        <a href="install.html" class="nav"> Install now... </a>  |
+<div class="row" id="navbar">
+        <a href="index.html" class="nav"> Welcome </a>  |
+        Install now...   |
         <a href="service.html" class="nav"> Service & Prices </a>  |
-        <a href="about.html#links" class="nav"> Links </a> |
+        <a href="links.html" class="nav"> Links </a> |
         <a href="contact.html" class="nav"> Contact </a> |
         <a href="about.html" class="nav"> About </a>
-  </div>
+</div>
 
-  <!-- Service
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="ten columns">
-    <h3 id="Service"></h3>
 
-    <br>
-    <p>
-    <strong>InstallBreeze</strong>&trade; is an installation service for online
-    software (i.e. software to be setup on vps or cloud computing platforms).
-    We address your needs and requirements. We work with you to perform your
-    software installation customized for you.
-    </p>
-    <p>
-    No reason to waste your time trying to figure out how to install these complex
-    pieces of software. We do it for you!
-    </p>
+<div class="ten columns">
+<br>
+<p><b>Main form:</b><br>
+  Start the installation process by providing:<br>
+  1- the context of your install, and<br>
+  2- your email address (to permit a subsequent dialogue
+  necessary for the completion of the task)
+</p>
+</div> <!-- end of div six columns -->
 
-  </div> <!-- end of div six columns -->
 
-  <form class="offset-by-half column" action="install.html" method="POST">
-    <div class="twelve columns">
-      <label></label>
-      <input class="button-primary" value="Start install here..." type="submit">
+<!-- The above form looks like this -->
+<div class="row" id="main_form">
+  <form class="offset-by-half column" action="https://formspree.io/installnow@installbreeze.com" method="POST">
+    <div class="five columns">
+      <label for="exampleRecipientInput"> Software to install ?</label>
+      <select name="software" class="u-full-width" id="exampleRecipientInput">
+        <option value="prestashop">DNS configurations  (estimated: $250)</option>
+        <option value="wordpress">Wordpress installation (estimated: $350)</option>
+        <option value="prestashop">Prestashop installation (estimated: $350)</option>
+        <option value="other">other/custom install: Request an estimate...</option>
+      </select>
+    </div>
+    <div class="five columns">
+      <label for="exampleRecipientInput"> Target cloud platform ?</label>
+      <select name="target_platform" class="u-full-width" id="exampleRecipientInput">
+        <option value="wordpress">Gandi.net</option>
+        <option value="prestashop">Dreamhost.com</option>
+        <option value="prestashop">Heroku.com</option>
+        <option value="other">other...</option>
+      </select>
+    </div>
+    <div class="ten columns">
+      <label for="exampleMessage">Technical details and comments ?</label>
+      <textarea name="details" class="u-full-width" placeholder="Technical details necessary to carry out your installation (ex: temporary login/passwords)..." id="exampleMessage"></textarea>
+    </div>
+    <div class="five columns">
+      <label for="exampleEmailInput">Your email ?</label>
+      <input required name="email" class="u-full-width" placeholder="user@mailbox.com" id="exampleEmailInput" type="email">
+    </div>
+    <div class="five columns">
+      <label> </label>
+      <input class="button-primary" value="Submit" type="submit">
     </div>
   </form>
-
-</div> <!-- end of div row -->
+</div>
 
 
 <div class="row" id="bottom">
-
   <div class="twelve columns">
     <div class="operator">
 
@@ -96,9 +113,11 @@
 </div> <!-- end of div row id bottom -->
 
 
+
 </div>
 <!-- end of div container
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 
 
 <div class="copyright">

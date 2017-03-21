@@ -129,22 +129,22 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #227;
-  background-color: #0000FF; }
+  background-color: #0066BB; }
 
 
 #logo {
   text-align: center;
   margin-bottom: 0px;
-  color: #AAEEFF;
-  background-color: #0000FF;
+  color: #CCEEFF;
+  background-color: #0066BB;
   font-weight: bold;
-  font-style: italic;
+  //font-style: italic;
   }
 
 #slogan {
   text-align: center;
   color: #88AAFF;
-  background-color: #0000FF;
+  background-color: #0066BB;
   font-style: italic;
   padding-bottom: 20px;
   }
@@ -152,17 +152,32 @@ body {
 #main_form {
   text-align: center;
   border: 1px;
-  background-color: #FFAA44;
+  background-color: #FFFFFF;
   }
 
 #bottom {
-  background-color: #AAEEFF;
+  text-align: center;
+  color: #CCEEFF;
+  background-color: #0066BB;
   font-size: small ;
   }
 
-#navbar {
+.operator {
+  color : #000055 ;
+  font-size: 80% ;
+}
+
+.copyright {
+  color : #000055 ;
+  font-size: 70% ;
   text-align: center;
+}
+
+#navbar {
+  //text-align: center;
   }
+
+
 
 
 /* Typography
@@ -243,8 +258,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #006A00;
-  border-color: #006A00; }
+  background-color: #0066BB;
+  border-color: #0066BB; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -256,8 +271,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #008A00;
-  border-color: #008A00; }
+  background-color: #0FA0CE;
+  border-color: #0FA0CE; }
 
 
 /* Forms
